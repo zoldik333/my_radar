@@ -13,11 +13,11 @@ void print_help(void)
     mini_printf("Air traffic simulation panel\n\n");
     mini_printf("USAGE\n");
     mini_printf(" ./my_radar [OPTIONS] path_to_script\n");
-    mini_printf(" path_to_script\tThe path of the script file.\n\n");
+    mini_printf(" path_to_script\tThe path of the script file (in script directory).\n\n");
     mini_printf("OPTIONS\n");
     mini_printf(" -h\tprint the usage and quit.\n\n");
     mini_printf("USER INTERACTIONS\n");
-    mini_printf(" 'Q' key or PRESS CROSS\tclose the window.\n");
+    mini_printf(" 'Q' key or press CROSS\tclose the window.\n");
     mini_printf(" 'L' key\tenable/disable hitboxes and areas.\n");
     mini_printf(" 'S' key\tenable/disable sprites.\n");
 }
