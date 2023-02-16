@@ -11,10 +11,9 @@ Detection of collisions with oriented bounding box and convex forms.
 
 ## Usage
 You need to download the CSFML librairy for running the program.
-git clone https://github.com/Krapaince/my_radar.git
+```
+git clone https://github.com/zoldik333/my_radar.git
 cd my_radar
 make
-make generator
-./generator -h
 ./my_radar -h
-./my_radar input_map
+```
